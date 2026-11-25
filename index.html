@@ -4,15 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://googleapis.com/css2?family=Atkinson+Hyperlegible">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
     <title>Webbutveckling</title><!-- min rubrik-->
 </head>
 <body>
     <a href="#maincontent" class="skip-link">Hoppa till innehållet</a>
     <header>
         <h1>Mittuniversitet</h1><!-- Hitta på ett annat namn!-->
-            <nav>
+            <button class="menu-toggle">☰</button>
+            <nav class="menu">
                 <ul>
                     <li><a href="#">Startsida</a></li>
                     <li><a href="#">Universitetet</a></li>
